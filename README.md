@@ -1,5 +1,5 @@
 
-# Jose RM - Projects Portfolio
+# Jose RM - Portfolio
 
 # portfolio
 <a name="readme-top"></a>
