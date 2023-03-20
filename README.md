@@ -107,9 +107,9 @@ Clone the repository using git, and open it with visual studio code.
 Clone this repository to your desired folder:
 
   cd "your-folder"
-  git clone #
+  git clone https://github.com/joramot/capstone_portfolio.git
 
-  git clone [git@github.com:[#]
+  git clone [git@github.com:[https://github.com/joramot/capstone_portfolio.git]
 
 
 ### Usage
