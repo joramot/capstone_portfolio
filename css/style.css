@@ -49,6 +49,11 @@ a {
   margin-right: 35px;
 }
 
+span {
+  font-size: 20px;
+  cursor: pointer;
+}
+
 /* END Header Section */
 
 /* BEGIN Headline Section */
