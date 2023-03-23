@@ -130,7 +130,7 @@ You can deploy this project using visual studio code and Figma.
 
 👤 ** Jose RM **
 
-- Project presentation: https://www.loom.com/share/76fd0013036545e98a6468ab7acfd356
+- Project presentation:
 
 - GitHub: https://github.com/joramot
 - Twitter: https://twitter.com/el_rulis
@@ -142,7 +142,6 @@ You can deploy this project using visual studio code and Figma.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 - [ ] **Link to YouTube Channel**
 - [ ] **News Section**
 - [ ] **Blog**
@@ -187,6 +186,5 @@ I would like to thank Microverse and all the persons that got in touch with me w
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
