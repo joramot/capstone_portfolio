@@ -475,6 +475,8 @@ li {
 
 /* END About Section */
 
+/*
+
 @media screen and (min-width: 768px) {
   #mobile-design {
     width: 100%;
@@ -486,7 +488,7 @@ li {
     transition: all 0.5s ease-out;
   }
 
-  /* BEGIN Header Menu */
+ 
   .menu {
     display: none;
   }
@@ -512,9 +514,9 @@ li {
     text-decoration-line: none;
   }
 
-  /* END Header Menu */
+ 
 
-  /* BEGIN Headline Section */
+ 
   .headline-desktop {
     display: flex;
     flex-direction: row;
@@ -575,9 +577,6 @@ li {
     animation-name: slidein;
   }
 
-  /* END Headline Section */
-
-  /* BEGIN Work Section */
   .works-section-desktop {
     width: 100%;
     height: 1810px;
@@ -656,9 +655,7 @@ li {
     margin-top: 49px;
   }
 
-  /* END Work Section */
-
-  /* BEGIN About Me Section */
+ 
   .about-section-desktop {
     width: 100%;
     height: 1195px;
@@ -736,5 +733,7 @@ li {
     text-align-last: justify;
   }
 
-  /* END About Me Section */
-}
+  
+} 
+
+/* END About Me Section */
