@@ -140,7 +140,6 @@ li {
   display: flex;
   flex-direction: column;
   width: 375px;
-  height: 3455px;
   margin-bottom: 120px;
 }
 
@@ -244,12 +243,23 @@ li {
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.07em;
   text-align: center;
   background: #ff6b00;
   color: #fff;
   border: none;
   cursor: pointer;
+}
+
+.button-see-project:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.button-see-project:active {
+  background: #e05304;
+  color: #fff;
 }
 
 .works-area-cards {
@@ -333,6 +343,17 @@ li {
   cursor: pointer;
 }
 
+.button-cards-work:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.button-cards-work:active {
+  background: #e05304;
+  color: #fff;
+}
+
 /* END Works Section */
 
 /* BEGIN About Section */
@@ -383,6 +404,17 @@ li {
   background: #ff6b00;
   color: #fff;
   border: none;
+}
+
+.button-about-me:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.button-about-me:active {
+  background: #e05304;
+  color: #fff;
 }
 
 .vector-about-me {
