@@ -170,6 +170,13 @@ If you like this project you can contact the author througt the above meddia lin
 
 I would like to thank Microverse and all the persons that got in touch with me while we were working on this project
 
+I thank the code reviewers who took the time to give me their comments and observations to improve my project:
+
+- [ ] **Felix Ouma @Felix45 GitHub: https://github.com/Felix45**
+- [ ] **Akinlade Temitope @mckent05 GitHub: https://github.com/mckent05**
+- [ ] **AVLESSI Matchoudi @LionRouge1 GitHub: https://github.com/LionRouge1**
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
