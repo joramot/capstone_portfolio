@@ -1,3 +1,4 @@
 # .gitignore
 node_modules/
 backup_css.md
+backup_images/
