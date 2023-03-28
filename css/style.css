@@ -516,6 +516,18 @@ li {
   justify-content: space-evenly;
 }
 
+.support-text-form-section {
+  margin-top: 120px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
 .contact-form-mobile {
   margin: 58px 0 206px 0;
   display: flex;
@@ -529,106 +541,4 @@ li {
   align-self: center;
 }
 
-.support-text-form-section {
-  margin-top: 120px;
-  margin-left: 24px;
-  margin-right: 24px;
-  font-family: Inter, sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  text-align: center;
-  color: #172b4d;
-}
-
-input {
-  width: 295px;
-  height: 18px;
-  border: 0;
-  margin-left: 16px;
-}
-
-footer hr {
-  width: 375px;
-  height: 1px;
-  background-color: #dfe1e6;
-  border: none;
-}
-
-input[type="email"] {
-  margin-top: 39px;
-}
-
-input[type="submit"] {
-  width: 40%;
-  height: 18%;
-  margin-top: 24px;
-  margin-left: 98px;
-  background-color: #ff6b00;
-  color: #fff;
-  font-family: Inter, sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  padding: 12px;
-}
-
-input[type="submit"]:hover {
-  background: #fff5e1;
-  border: 1px solid #f55800;
-  color: #f55800;
-}
-
-input[type="submit"]:active {
-  background: #e05304;
-  color: #fff;
-}
-
-.textarea_mobile {
-  width: 327px;
-  height: 115px;
-  margin-top: 24px;
-  padding: 12px;
-  border: 0;
-  font-family: Inter, sans-serif;
-  background: #fbf8f7;
-}
-
 /* END Contact Form Section */
-
-/* BEGIN Footer Section */
-.separator-line {
-  margin-top: 14px;
-  width: 327px;
-  height: 1px;
-  background: #dbd8d7;
-  border: 0;
-}
-
-.footer-mobile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.bottom-nav {
-  margin-top: 15px;
-  margin-bottom: 13px;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.social-icons-desktop {
-  width: 20px;
-  height: 20px;
-}
-
-.home-indicator {
-  margin-top: 13px;
-  margin-bottom: 8px;
-}
-
-/* END Footer Section */
