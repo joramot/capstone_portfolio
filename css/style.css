@@ -520,13 +520,12 @@ li {
   margin: 58px 0 206px 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  align-self: center;
+  align-items: center;
 }
 
 .support-text-form-section {
@@ -541,11 +540,13 @@ li {
   color: #172b4d;
 }
 
-input {
+input,
+textarea {
   width: 295px;
   height: 18px;
   border: 0;
   margin-left: 16px;
+  outline: none;
 }
 
 footer hr {
@@ -590,6 +591,7 @@ input[type="submit"]:active {
   width: 327px;
   height: 115px;
   margin-top: 24px;
+  margin-left: 23px;
   padding: 12px;
   border: 0;
   font-family: Inter, sans-serif;
@@ -605,6 +607,7 @@ input[type="submit"]:active {
   height: 1px;
   background: #dbd8d7;
   border: 0;
+  margin-left: 23px;
 }
 
 .footer-mobile {
@@ -618,7 +621,7 @@ input[type="submit"]:active {
   margin-bottom: 13px;
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 20px;
 }
 
 .social-icons-desktop {
