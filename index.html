@@ -21,15 +21,7 @@
   <header>
     <nav class="navbar">
       <p class="name-logo"><a href="#">Jose RM</a></p>
-      <ul class="navlinks">
-        <li class="links"><a href="#">Portfolio</a></li>
-        <li class="links"><a href="#">About</a></li>
-        <li class="links"><a href="#">Contact</a></li>
-        <li><a href="#"><img src="./images/e-mail-icon.png" alt="Email Send"></a></li>
-      </ul>
-      <div class="menu">
-        <span>&#9776</span>
-      </div>
+      <span class="menu">&#9776</span>
     </nav>
   </header>
 
@@ -216,6 +208,50 @@
       </div>
     </div>
   </section>
+
+  <section id="contact" class="contact-form-container contact-form-desktop">
+    <div class="contact-container">
+      <p class="support-text-form-section">I'm always interested in hearing about new
+        projects, so if you'd like to chat please get in touch.
+      </p>
+      <form class="contact-form-mobile contact-form-desktop" action="https://formspree.io/f/mlekejwj" method="post">
+        <input type="text" id="name" name="user_name" maxlength="30" placeholder="Full name" required />
+        <hr class="separator-line">
+        <input type="email" id="mail" name="user_email" placeholder="Email address" required />
+        <hr class="separator-line">
+        <textarea class="textarea_mobile" id="msg" name="user_message" maxlength="500" placeholder="Enter text here"
+          required></textarea>
+        <input class="button-colors" type="submit" value="Get in touch"></input>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer-mobile">
+    <hr class="line-div-footer">
+    <ul class="bottom-nav">
+      <li>
+        <a class="social-icons-desktop" href="https://github.com/joramot" rel="noopener" target="_blank"><img
+            src="./images/github-icon-dark.png" alt="GitHub Site Link">
+        </a>
+      </li>
+      <li>
+        <a class="social-icons-desktop" href="https://linkedin.com/in/jose-RM" rel="noopener" target="_blank"> <img
+            src="./images/linkedin-icon-dark.png" alt="LinkedIn Social Media Link">
+        </a>
+      </li>
+      <li>
+        <a class="social-icons-desktop" href="#"><img src="./images/angelist-icon-dark.png"
+            alt="Angelist Social Media Link">
+        </a>
+      </li>
+      <li><a class="social-icons-desktop" href="https://twitter.com/el_rulis" rel="noopener" target="_blank"><img
+            src="./images/twitter-icon-dark.png" alt="Twitter Social Media Link"></a></li>
+      <li><a class="social-icons-desktop" href="#"> <img src="./images/medium-icon-dark.png"
+            alt="Medium Social Media Link"></a>
+      </li>
+    </ul>
+    <img class="home-indicator" src="./images/home-indicator.png" alt="Home Indicator">
+  </footer>
 
 </body>
 
