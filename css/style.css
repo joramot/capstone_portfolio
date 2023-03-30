@@ -596,6 +596,7 @@ input[type="submit"]:active {
   background: #e05304;
   color: #fff;
 }
+
 .textarea_mobile {
   width: 327px;
   height: 115px;
@@ -801,7 +802,6 @@ input[type="submit"]:active {
     flex-direction: column;
     background-image: url("../images/img_card.png");
     background-size: cover;
-    -webkit-text-fill-color: transparent;
   }
 
   .button-cards-work {
