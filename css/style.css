@@ -293,6 +293,26 @@ li {
   background-size: cover;
 }
 
+.cards-work-container > button {
+  display: none;
+}
+
+.cards-work-container:hover > button {
+  display: block;
+}
+
+.cards-work-container:hover>h3,
+.cards-work-container:hover>p,
+.cards-work-container:hover>ul {
+  display: none;
+}
+
+.cards-work-container:hover>button {
+  margin-top: 377px;
+  width: 369px;
+  height: 58px;
+}
+
 .cards-work-title {
   margin-top: 84px;
   margin-left: 24px;
