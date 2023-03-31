@@ -298,6 +298,23 @@ li {
   background-size: cover;
 }
 
+.cards-work-container > button {
+  display: none;
+}
+
+.cards-work-container:hover > button {
+  display: block;
+  margin-top: 377px;
+  width: 369px;
+  height: 58px;
+}
+
+.cards-work-container:hover > h3,
+.cards-work-container:hover > p,
+.cards-work-container:hover > ul {
+  display: none;
+}
+
 .cards-work-title {
   margin-top: 84px;
   margin-left: 24px;
@@ -810,7 +827,6 @@ input[type="submit"]:active {
     flex-direction: column;
     background-image: url("../images/img_card.png");
     background-size: cover;
-    -webkit-text-fill-color: transparent;
   }
 
   .button-cards-work {
