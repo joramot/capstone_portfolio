@@ -299,18 +299,15 @@ li {
 
 .cards-work-container:hover > button {
   display: block;
-}
-
-.cards-work-container:hover>h3,
-.cards-work-container:hover>p,
-.cards-work-container:hover>ul {
-  display: none;
-}
-
-.cards-work-container:hover>button {
   margin-top: 377px;
   width: 369px;
   height: 58px;
+}
+
+.cards-work-container:hover > h3,
+.cards-work-container:hover > p,
+.cards-work-container:hover > ul {
+  display: none;
 }
 
 .cards-work-title {
