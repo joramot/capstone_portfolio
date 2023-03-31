@@ -3,18 +3,17 @@
   padding: 0;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 a {
   color: #fff;
   text-decoration: none;
 }
 
-header a {
+a:hover,
+a:focus {
+  background-color: #f55800;
   color: #fff;
-  text-decoration-line: none;
+  border: 1px solid;
+  padding: 0.5rem;
   transition: all 0.5s ease-out;
 }
 
@@ -602,6 +601,7 @@ input[type="submit"]:active {
   background: #e05304;
   color: #fff;
 }
+
 .textarea_mobile {
   width: 327px;
   height: 115px;
@@ -641,9 +641,12 @@ input[type="submit"]:active {
 }
 
 @media screen and (min-width: 768px) {
-  #mobile-design {
-    width: 100%;
-    height: 4561px;
+
+
+  header a {
+    color: #fff;
+    text-decoration-line: none;
+    transition: all 0.5s ease-out;
   }
 
   .menu {
