@@ -112,14 +112,12 @@ span {
 }
 
 .social-icons {
-  margin-left: 24px;
+  margin-left: 35px;
   margin-top: 12px;
-  width: 200px;
-  height: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
+  gap: 1rem;
 }
 
 img {
@@ -647,11 +645,6 @@ input[type="submit"]:active {
   gap: 20px;
 }
 
-.social-icons-desktop {
-  width: 20px;
-  height: 20px;
-}
-
 .home-indicator {
   margin-top: 13px;
   margin-bottom: 8px;
@@ -692,8 +685,6 @@ input[type="submit"]:active {
 /* END animations */
 
 @media screen and (min-width: 768px) {
-
-
   header a {
     color: #fff;
     text-decoration-line: none;
@@ -758,10 +749,8 @@ input[type="submit"]:active {
   }
 
   .social-icons {
-    margin-left: 15px;
-    margin-top: 279px;
-    width: 200px;
-    height: 40px;
+    margin-left: 5px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
