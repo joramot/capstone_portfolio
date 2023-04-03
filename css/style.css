@@ -3,13 +3,18 @@
   padding: 0;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 a {
   color: #fff;
   text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  background-color: #f55800;
+  color: #fff;
+  border: 1px solid;
+  padding: 0.5rem;
+  transition: all 0.5s ease-out;
 }
 
 /* BEGIN Header Section */
@@ -107,14 +112,12 @@ span {
 }
 
 .social-icons {
-  margin-left: 24px;
+  margin-left: 35px;
   margin-top: 12px;
-  width: 200px;
-  height: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
+  gap: 1rem;
 }
 
 img {
@@ -160,13 +163,13 @@ li {
   background-color: gray;
 }
 
-.works-info-section {
+.works-grid {
   width: 100%;
   height: 3028px;
   align-items: center;
 }
 
-.multi-post-stories {
+.work-card {
   width: 375px;
   height: 568px;
   display: flex;
@@ -642,20 +645,50 @@ input[type="submit"]:active {
   gap: 20px;
 }
 
-.social-icons-desktop {
-  width: 20px;
-  height: 20px;
-}
-
 .home-indicator {
   margin-top: 13px;
   margin-bottom: 8px;
 }
 
-@media screen and (min-width: 768px) {
-  #mobile-design {
+/* END Footer Section */
+
+/* BEGIN animations */
+
+@keyframes text {
+  from {
+    background-color: #cfcfcf;
+  }
+
+  to {
+    background-color: #f55800;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 120%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
     width: 100%;
-    height: 4561px;
+  }
+}
+
+/* END animations */
+
+@media screen and (min-width: 768px) {
+  header a {
+    color: #fff;
+    text-decoration-line: none;
+    transition: all 0.5s ease-out;
   }
 
   .menu {
@@ -716,10 +749,8 @@ input[type="submit"]:active {
   }
 
   .social-icons {
-    margin-left: 15px;
-    margin-top: 279px;
-    width: 200px;
-    height: 40px;
+    margin-left: 5px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -792,7 +823,7 @@ input[type="submit"]:active {
     border-radius: 0;
   }
 
-  .works-info-desktop {
+  .works-grid-desktop {
     width: 100%;
     display: flex;
     flex-direction: column;
