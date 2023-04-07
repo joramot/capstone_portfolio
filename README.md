@@ -42,25 +42,25 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [Jose RM - Portfolio](#jose-rm---portfolio)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 **Portfolio Jose RM. Full Stack Developer** (or so I try :D) ](#-portfolio-jose-rm-full-stack-developer-or-so-i-try-d-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
 
 # 📖 **Portfolio Jose RM. Full Stack Developer** (or so I try :D) <a name="about-project"></a>
@@ -129,7 +129,7 @@ You can deploy this project using visual studio code and Figma.
 
 👤 ** Jose RM **
 
-- Project presentation:
+- Project presentation: https://www.loom.com/share/76fd0013036545e98a6468ab7acfd356
 
 - GitHub: https://github.com/joramot
 - Twitter: https://twitter.com/el_rulis
