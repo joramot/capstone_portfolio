@@ -75,6 +75,7 @@ After you're finished please remove all the comments and instructions!
 
 - HTML
 - CSS
+- Javascript
 - Visual Studio Code 
 - Figma
 
@@ -174,6 +175,12 @@ I thank the code reviewers who took the time to give me their comments and obser
 - [ ] **Felix Ouma @Felix45 GitHub: https://github.com/Felix45**
 - [ ] **Akinlade Temitope @mckent05 GitHub: https://github.com/mckent05**
 - [ ] **AVLESSI Matchoudi @LionRouge1 GitHub: https://github.com/LionRouge1**
+- [ ] **Andres Agudelo Guzman @anagudelogu GitHub: https://github.com/anagudelogu**
+- [ ] **Temitope Ogunleye opeogunleye GitHub: https://github.com/topeogunleye** 
+- [ ] **Mohammed Hussen @binhussen GitHub: https://github.com/binhussen**
+- [ ] **ABDUL ALI @ABDULALI3468 GitHub: https://github.com/ABDULALI3468**
+- [ ] **Okemdi Udeh @Shisui6 GitHub: https://github.com/Shisui6**
+- [ ] **Adel Guitoun @adel-gu GitHub: https://github.com/adel-gu**  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
