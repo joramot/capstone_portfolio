@@ -289,7 +289,7 @@ li {
   height: 2436px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .cards-work-container {
