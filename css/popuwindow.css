@@ -156,3 +156,122 @@
   color: #091e42;
   text-decoration: none;
 }
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: #67798e;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* --- Desktop Version --- */
+
+@media screen and (min-width: 768px) {
+  .frame-mobile-h2 {
+    display: none;
+  }
+
+  /* Modal Content */
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 1156px;
+    height: 631px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+  }
+
+  .primary-text-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 1108px;
+    height: 40px;
+    margin: 24px 0 80px 24px;
+  }
+
+  .primary-text-desktop .frame-desktop {
+    display: flex;
+    align-items: flex-start;
+    width: 1108px;
+    height: 40px;
+  }
+
+  .primary-text-desktop .frame-desktop .frame-desktop-h2 {
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .img-popu-desktop {
+    width: 659px;
+    height: 448px;
+    margin-left: 24px;
+  }
+
+  .content-block-desktop {
+    display: flex;
+  }
+
+  .block-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 0 0 25px;
+    gap: 12px;
+    width: 311px;
+    height: 448px;
+  }
+
+  .block-desktop p {
+    width: 424px;
+    height: 336px;
+  }
+}
