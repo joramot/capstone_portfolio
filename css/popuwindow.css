@@ -107,6 +107,15 @@
   gap: 12px;
 }
 
+.btn-block a:hover,
+.btn-blocka:focus {
+  background-color: #f55800;
+  color: #fff;
+  border: 1px solid;
+  padding: 0.2rem;
+  transition: all 0.5s ease-out;
+}
+
 .img-btn {
   width: 18px;
   height: 18px;
