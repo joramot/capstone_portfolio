@@ -107,6 +107,11 @@
   gap: 12px;
 }
 
+.img-btn {
+  width: 18px;
+  height: 18px;
+}
+
 .btn-popup-left {
   width: 134px;
   height: 48px;
@@ -154,9 +159,8 @@
 
 .tags .tags-option a {
   color: #091e42;
-  text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
