@@ -37,4 +37,4 @@ if (contactInfoString) {
   nameInput.value = contactInfo.name;
   emailInput.value = contactInfo.email;
   messageTextarea.value = contactInfo.message;
-};
+}
