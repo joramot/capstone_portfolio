@@ -1,13 +1,40 @@
-const fname = document.getElementById('name').value;
-const femail = document.getElementById('email').value;
-const fmsg = document.getElementById('msg').value;
-let dataform = {
-  name: fname,
-  email: femail,
-  msg: fmsg,
-};
+// Capture the form and form elements
+const contactForm = document.getElementById('contact_form');
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const messageTextarea = document.getElementById('msg');
 
-localStorage.setItem('dataform', JSON.stringify(dataform));
+// Add a form submit event
+contactForm.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent form submission
 
-const datastorage = localStorage.getItem('dataform');
-dataform = JSON.parse(datastorage);
+  // Get the values of the input fields and textarea
+  const name = nameInput.value;
+  const email = emailInput.value;
+  const message = messageTextarea.value;
+
+  // Create a JavaScript object with the captured values
+  const contactInfo = {
+    name,
+    email,
+    message,
+  };
+
+  // Save the object in the localStorage
+  localStorage.setItem('contactInfo', JSON.stringify(contactInfo));
+
+  // Clear input fields and textarea after saving to localStorage
+  nameInput.value = '';
+  emailInput.value = '';
+  messageTextarea.value = '';
+});
+
+const contactInfoString = localStorage.getItem('contactInfo');
+if (contactInfoString) {
+  const contactInfo = JSON.parse(contactInfoString);
+
+  // Assign the object values to the form fields
+  nameInput.value = contactInfo.name;
+  emailInput.value = contactInfo.email;
+  messageTextarea.value = contactInfo.message;
+}
