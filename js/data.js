@@ -28,13 +28,3 @@ contactForm.addEventListener('submit', (event) => {
   emailInput.value = '';
   messageTextarea.value = '';
 });
-
-const contactInfoString = localStorage.getItem('contactInfo');
-if (contactInfoString) {
-  const contactInfo = JSON.parse(contactInfoString);
-
-  // Assign the object values to the form fields
-  nameInput.value = contactInfo.name;
-  emailInput.value = contactInfo.email;
-  messageTextarea.value = contactInfo.message;
-}
