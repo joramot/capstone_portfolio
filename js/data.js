@@ -1,40 +1,35 @@
 // Capture the form and form elements
-const contactForm = document.getElementById('contact_form');
-const nameInput = document.getElementById('name');
-const emailInput = document.getElementById('email');
-const messageTextarea = document.getElementById('msg');
+const fname = document.getElementById('name');
+const femail = document.getElementById('email');
+const ftextarea = document.getElementById('msg');
 
-// Add a form submit event
-contactForm.addEventListener('submit', (event) => {
-  event.preventDefault(); // Prevent form submission
+// Get data from the javascript object
+function getFormData() {
+  const userData = localStorage.getItem('userData');
+  if (userData !== null) {
+    const userDataObj = JSON.parse(userData);
+    fname.value = userDataObj.name;
+    femail.value = userDataObj.email;
+    ftextarea.value = userDataObj.message;
+  }
+}
 
-  // Get the values of the input fields and textarea
-  const name = nameInput.value;
-  const email = emailInput.value;
-  const message = messageTextarea.value;
-
+// Set data in the javascript object
+function setFormData() {
   // Create a JavaScript object with the captured values
   const contactInfo = {
-    name,
-    email,
-    message,
+    name: fname.value,
+    email: femail.value,
+    message: ftextarea.value,
   };
-
   // Save the object in the localStorage
-  localStorage.setItem('contactInfo', JSON.stringify(contactInfo));
-
-  // Clear input fields and textarea after saving to localStorage
-  nameInput.value = '';
-  emailInput.value = '';
-  messageTextarea.value = '';
-});
-
-const contactInfoString = localStorage.getItem('contactInfo');
-if (contactInfoString) {
-  const contactInfo = JSON.parse(contactInfoString);
-
-  // Assign the object values to the form fields
-  nameInput.value = contactInfo.name;
-  emailInput.value = contactInfo.email;
-  messageTextarea.value = contactInfo.message;
+  localStorage.setItem('userData', JSON.stringify(contactInfo));
 }
+
+// Load stored object values from localstorage
+window.onload = () => { getFormData(); };
+
+// Listens when an input value in the form changes
+fname.addEventListener('change', () => setFormData());
+femail.addEventListener('change', () => setFormData());
+ftextarea.addEventListener('change', () => setFormData());
