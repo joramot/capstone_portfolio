@@ -29,7 +29,7 @@ function setFormData() {
 // Load stored object values from localstorage
 window.onload = () => { getFormData(); };
 
-// Listens when an input value in the form changes
+// Listeners when an input value in the form changes
 fname.addEventListener('change', () => setFormData());
 femail.addEventListener('change', () => setFormData());
 ftextarea.addEventListener('change', () => setFormData());
