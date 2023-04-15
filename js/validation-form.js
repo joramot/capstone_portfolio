@@ -2,7 +2,7 @@ const email = document.getElementById('.email');
 const form = document.getElementById('.contact_form');
 const small = document.querySelector('.small');
 
-form.addEventListener('submi', (e) => {
+form.addEventListener('', (e) => {
   e.preventDefault();
   small.innerText = '';
   if (email.value === email.value.toLowerCase()) {
